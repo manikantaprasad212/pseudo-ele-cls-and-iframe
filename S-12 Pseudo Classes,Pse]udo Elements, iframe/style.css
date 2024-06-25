@@ -1,0 +1,69 @@
+p::first-letter{
+    color: brown;
+    color: yellowgreen;
+    font-size:2rem;
+}
+p{
+    background-color: bisque;
+    color: blueviolet;
+
+}
+p::first-line{
+ color: darkslateblue;
+ font-size: 1.5rem;
+}
+mark{
+    background-color: gray;
+    color: orchid;
+    font-size:2.5rem;
+}
+span{
+    background-color: red;
+    color: white;
+}
+p::selection{
+    background-color: seagreen;
+    color: blue;
+
+}
+h1::before{
+    content:"💸";
+}
+h1::after{
+    content:"💸";
+}
+/* .list{
+    background-color: bisque;
+    color: blueviolet;
+} */
+h2::before{
+    content:"📶";
+
+}
+h2::after{
+   content:"📶";
+}
+a:visited{
+    background-color: yellow;
+    color: red;
+    /* font-size: 2.3rem; */
+    font-family: fantasy;
+}
+a:link{
+    background-color: green;
+    color: blue;
+}
+a:hover{
+    background-color: skyblue;
+    color: rgba(203, 32, 61, 0.836);
+}
+a:active{
+    background-color: blanchedalmond;
+    color: blue; 
+}
+iframe{
+    width: 200px;
+    height: 200px;
+}
+
+
